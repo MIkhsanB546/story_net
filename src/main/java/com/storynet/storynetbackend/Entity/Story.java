@@ -27,5 +27,4 @@ public class Story implements Serializable {
     @NotEmpty(message = "Description is required")
     @Column(name = "story_desription", length = 1000)
     private String description;
-
 }
